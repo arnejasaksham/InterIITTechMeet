@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<title>Details Page</title>
+	<link rel="icon" href="../tabIcon.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../style/officialPage.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-database.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script src="./firebase-test.js"> </script> -->
+	<script src="../../firebase-test-2.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js">
+	</script>	
+	<script>
+		
+
+		function hide(i){
+			if(document.getElementById(i+'stat').innerHTML == 50){
+				document.getElementById(i+'-user').style.display = 'none';
+			}
+			else{
+				console.log('true');
+				document.getElementById(i+'drop').style.display = 'none';
+				document.getElementById(i+'-eng').style.display = 'none';
+			}
+		}
+
+		// function mail(i){
+		// 	var status = document.getElementById(i+'stat').innerHTML;
+		// 	var time = document.getElementById(i+'time').innerHTML;
+		// 	var location = document.getElementById(i+'loc').innerHTML;
+		// 	var area = document.getElementById(i+'area').innerHTML;
+		// 	var email = document.getElementById(i+'drop').value;
+		// 	//var photo = document.getElementById(i+'stat');
+		// 	console.log(location);
+		// 	if(status == 50){
+		// 		Email.send({
+		// 		Host : "smtp.gmail.com",
+		// 		Port : 587,
+		// 		SMTPAuth : true,
+		// 		SMTPSecure : 'tls',
+		// 		Username : "phpmailer7.0@gmail.com",
+		// 		Password : "mailing is a good thing",
+		// 		To : email,
+		// 		From : "phpmailer7.0@gmail.com",
+		// 		Subject : "You have to work according to the details mentioned",
+		// 		Body : "The location is " + location + ". This was reported on " + time + ". The estimated area of the pothole is " + area + ". The emergency factor is " + status + "."
+		// }).then(
+		// 	message => alert(message)
+		// );
+			
+		// 	}
+		// 	else{
+		// 		alert('unsuccessful')
+		// 	}
+		// }
+	</script>
+</head>
+<body>
+	<div class="myrow">
+		<div class="column"><img src="../headerIcon.png"><div style="margin-top: 1%;"><h2>बृहन्मुंबई महानगरपालिका<br>Municipal Corporation of Mumbai</h2></div></div>
+	<a href="../../login.php" class="btn btn-primary" style="height:40px;width:80px;margin-top:50px;margin-right:10px">Logout</a>
+	</div>
+	<marquee class='marq'>Install the new Pothole Reporting application from Play Store and App Store | Register for 2019 elections now | Choose your region for toilet setup | For water connections visit  the official MCGM website | Update your Aadhar details here | </marquee>
+	<div class="details-table">
+		<table class="table" id="details">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Status</th>
+					<th scope="col">Timestamp</th>
+					<th scope="col">Location</th>
+					<th scope="col">Est. Area</th>
+					<th scope="col">Select Email</th>
+					<th scope="col">Submit To Engineer</th>
+					<th scope="col">Acknowledge To User</th>
+				</tr>
+				<!-- <tr>
+					<td scope="col">#</td>
+					<td scope="col">UserId</td>
+					<td scope="col">Report Time</td>
+					<td scope="col">Location</td>
+					<td scope="col"><input class='"btn btn-primary"' type='"button"' name='"engineer"' value='"engg"' data-toggle='"modal"' data-target='"#exampleModal"'></td>
+					<td> <input class="btn btn-primary" type="button" name="user" value="user"></td>
+				</tr>
+				<tr>
+					<td scope="col">#</td>
+					<td scope="col">UserId</td>
+					<td scope="col">Report Time</td>
+					<td scope="col">Location</td>
+					<td scope="col"><input class="btn btn-primary" type="button" name="engineer" value="engg"></td>
+					<td> <input class="btn btn-primary" type="button" name="user" value="user"></td>
+				</tr>
+				<tr>
+					<td scope="col">#</td>
+					<td scope="col">UserId</td>
+					<td scope="col">Report Time</td>
+					<td scope="col">Location</td>
+					<td scope="col"><input class="btn btn-primary" type="button" name="engineer" value="engg"></td>
+					<td> <input class="btn btn-primary" type="button" name="user" value="user"></td>
+				</tr> -->
+			</thead>
+			<tbody id="t_body">
+				
+			</tbody>
+		</table>
+	</div>
+
+</body>
+</html>
