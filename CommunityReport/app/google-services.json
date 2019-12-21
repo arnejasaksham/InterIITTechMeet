@@ -1,52 +1,37 @@
 {
   "project_info": {
-    "project_number": "1024313734913",
-    "firebase_url": "https://communityreport-2a88c.firebaseio.com",
-    "project_id": "communityreport-2a88c",
-    "storage_bucket": "communityreport-2a88c.appspot.com"
+    "project_number": "890126580763",
+    "firebase_url": "https://interiittechmeet-6f218.firebaseio.com",
+    "project_id": "interiittechmeet-6f218",
+    "storage_bucket": "interiittechmeet-6f218.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1024313734913:android:7c675165284a9811",
+        "mobilesdk_app_id": "1:890126580763:android:01426f83b942dda5dfccbe",
         "android_client_info": {
           "package_name": "c.example.communityreport"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1024313734913-6qmr373l27t21g0uvuvi4eh4jfhtgj8l.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "c.example.communityreport",
-            "certificate_hash": "b25c81696d8126a54fe459f501909472068c6f8a"
-          }
-        },
-        {
-          "client_id": "1024313734913-vv9b5fggtkl6tmh604oe01pp0kd0cbgr.apps.googleusercontent.com",
+          "client_id": "890126580763-6o24m37n3o655nda8vdo92jvanhlair5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBQQrgLspFIJg6oqxQG_nwgYOqET_6xiwo"
+          "current_key": "AIzaSyCOrox6P5MwEUMj000MplYlr-tliA2YBis"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "1024313734913-vv9b5fggtkl6tmh604oe01pp0kd0cbgr.apps.googleusercontent.com",
+              "client_id": "890126580763-6o24m37n3o655nda8vdo92jvanhlair5.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

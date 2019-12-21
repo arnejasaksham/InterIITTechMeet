@@ -39,7 +39,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                             if(user != null) {
                                 if (dataSnapshot.child("Users").hasChild(user.getUid())){
                                     finish();
-                                    startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                                    startActivity(new Intent(getApplicationContext(), MapMarker.class));
                                 }
                                 else{
                                     finish();
@@ -60,6 +60,6 @@ public class SplashScreenActivity extends AppCompatActivity {
                     finish();
                 }
             }
-        }, 3000);
+        }, 2000);
     }
 }
