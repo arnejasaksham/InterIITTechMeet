@@ -2,11 +2,11 @@
 //<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
 
 var config = {
-    apiKey: "AIzaSyAfth_mmAGWTMTxxG_2-DWgV_qIHwJsqSs",
-    authDomain: "communityreport-2a88c.firebaseapp.com",
-    databaseURL: "https://communityreport-2a88c.firebaseio.com",
-    projectId: "communityreport-2a88c",
-    storageBucket: "communityreport-2a88c.appspot.com",
+    apiKey: "AIzaSyA1njsn06UVdJUBzU4nOCaNRUPbZLUInic",
+    authDomain: "hackathon-74ece.firebaseio.com",
+    databaseURL: "https://hackathon-74ece.firebaseio.com/",
+    projectId: "hackathon-74ece",
+    storageBucket: "hackathon-74ece.appspot.com",
     messagingSenderId: "1024313734913"
   };
 //firebase.initializeApp(config);
@@ -23,4 +23,4 @@ fireDatabase.ref("Pothole_Reports/dAvBxyWOA8ehDQGPVR9ONWtsSb23/20190330_153031/"
 */
 //code sample for update
 statusData={"Status":60};
-fireDatabase.ref("Pothole_Reports/dAvBxyWOA8ehDQGPVR9ONWtsSb23/20190330_153031/").update(statusData);
+fireDatabase.ref("Pothole_Reports/Pothole_Reports/8hmEFVWmwVf6bIsbsg64ap7ZNaH2/20191220_122311/").update(statusData);

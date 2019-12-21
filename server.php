@@ -1,6 +1,6 @@
 <?php
 session_start();
-$db=mysqli_connect('localhost','root','','bitcamp');
+$db=mysqli_connect('localhost','root','','interiit');
 echo '<script> var err=[];</script>';
 if(isset($_POST['login']))
 {
