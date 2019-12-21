@@ -1,6 +1,4 @@
-<p style="text-align: center;image-align: center;">
-<h2> <b> Schlumberger Coding Hackathon </b> </h2>
-</p>
+##                                Schlumberger Coding Hackathon
 <p align="center">
 <img src="https://user-images.githubusercontent.com/19551774/71306931-31fc1400-240d-11ea-9f6d-1f277fb31bb7.jpeg">
 </p>
