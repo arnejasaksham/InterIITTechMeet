@@ -11,6 +11,6 @@
     <gradient
         android:startColor="@color/button_bg_start"
         android:endColor="@color/button_bg_end"
-        android:angle="45" />
+        android:angle="315" />
 
 </shape>

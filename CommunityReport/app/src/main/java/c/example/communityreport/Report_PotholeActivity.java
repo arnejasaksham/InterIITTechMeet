@@ -136,7 +136,7 @@ public class Report_PotholeActivity extends AppCompatActivity {
             if(photoFile!=null)
             {
                 displayMessage(getBaseContext(),photoFile.getAbsolutePath());
-                Log.i("Mayank",photoFile.getAbsolutePath());
+                Log.i("Aditya",photoFile.getAbsolutePath());
                 Uri photoURI  = Uri.fromFile(photoFile);
                 cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 startActivityForResult(cameraIntent, CAPTURE_IMAGE_REQUEST);
@@ -349,7 +349,7 @@ public class Report_PotholeActivity extends AppCompatActivity {
         progressDialog.setMessage("Uploading");
         progressDialog.show();
         //Toast.makeText(this, "Uploading ...", Toast.LENGTH_LONG).show();
-        final String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        final String timeStamp = new SimpleDateFormat("dd-MM-yyyy HH:mm").format(new Date());
         final StorageReference filepath = storageReference.child(firebaseUser.getUid()).child(timeStamp + ".jpg");
 
         //Bitmap bitmap = ((BitmapDrawable)imageView.getDrawable()).getBitmap();

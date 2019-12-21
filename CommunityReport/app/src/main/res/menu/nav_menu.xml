@@ -6,7 +6,7 @@
         android:icon="@drawable/ic_home_black_24dp"/>
 
     <item android:id="@+id/viewpoints"
-        android:title="@string/view_points"
+        android:title="Progress: Graphical view"
         android:icon="@drawable/ic_account_balance_wallet_black_24dp"/>
 
     <item android:id="@+id/rep_pothole"
@@ -22,7 +22,7 @@
         android:icon="@drawable/ic_monetization_on_black_24dp"/>
 
     <item android:id="@+id/about"
-        android:title="@string/about_us"
+        android:title="Progress: Map View"
         android:icon="@drawable/ic_contact_mail_black_24dp"/>
 
     <item android:id="@+id/logout"

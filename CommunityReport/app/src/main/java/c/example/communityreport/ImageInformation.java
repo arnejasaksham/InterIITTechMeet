@@ -17,6 +17,8 @@ public class ImageInformation {
     public int NumberOfPotholes;
     public float PotholeHeight;
     public float PotholeWidth;
+    public boolean accepted;
+    public boolean scanned;
 
 
     public ImageInformation(){
@@ -38,6 +40,8 @@ public class ImageInformation {
         this.NumberOfPotholes = 0;
         this.PotholeHeight = 0;
         this.PotholeWidth = 0;
+        this.accepted = false;
+        this.scanned = false;
     }
 
 }

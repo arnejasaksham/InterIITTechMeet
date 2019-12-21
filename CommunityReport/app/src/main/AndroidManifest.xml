@@ -42,7 +42,7 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".RewardsActivity" />
+        <activity android:name=".AwardPointsActivity" />
         <activity android:name=".ProfileActivity" />
         <activity
             android:name=".Report_PotholeActivity"
@@ -59,6 +59,8 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCUxitsWSFMPXWUsZZFE5qHGESGgiCtfjM"/>
+        <activity android:name=".MapsFragment"></activity>
+        <activity android:name=".RewardsActivity"></activity>
 
     </application>
 

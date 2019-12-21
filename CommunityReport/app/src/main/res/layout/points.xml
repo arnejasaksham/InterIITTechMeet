@@ -15,14 +15,10 @@
         android:background="#880E4F">
 
         <ImageView
+            android:layout_margin="2dp"
             android:id="@+id/backreport"
             android:layout_width="40dp"
             android:layout_height="50dp"
-            android:layout_marginStart="2dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginBottom="2dp"
-            android:contentDescription="back_button"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/ic_keyboard_backspace_black_24dp" />
 
@@ -42,14 +38,14 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="377dp"
-        android:layout_height="100dp"
+        android:layout_width="351dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="18dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="18dp"
-        android:contentDescription="fastag_logo"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layout_tool"
         app:srcCompat="@drawable/fastag_logo" />
@@ -59,7 +55,7 @@
         android:layout_width="210dp"
         android:layout_height="158dp"
         android:layout_marginTop="18dp"
-        android:contentDescription="trophy_logo"
+        android:adjustViewBounds="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
@@ -102,7 +98,7 @@
         android:text="Send to FASTAG Wallet"
         android:textAllCaps="false"
         android:textColor="#ffffff"
-        android:textSize="24sp"
+        android:textSize="24dp"
         android:onClick="setZero"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

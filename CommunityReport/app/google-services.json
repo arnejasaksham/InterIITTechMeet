@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "890126580763",
-    "firebase_url": "https://interiittechmeet-6f218.firebaseio.com",
-    "project_id": "interiittechmeet-6f218",
-    "storage_bucket": "interiittechmeet-6f218.appspot.com"
+    "project_number": "859830193730",
+    "firebase_url": "https://hackathon-74ece.firebaseio.com",
+    "project_id": "hackathon-74ece",
+    "storage_bucket": "hackathon-74ece.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:890126580763:android:01426f83b942dda5dfccbe",
+        "mobilesdk_app_id": "1:859830193730:android:f654861dd9c3c8a13c67db",
         "android_client_info": {
           "package_name": "c.example.communityreport"
         }
       },
       "oauth_client": [
         {
-          "client_id": "890126580763-6o24m37n3o655nda8vdo92jvanhlair5.apps.googleusercontent.com",
+          "client_id": "859830193730-1igtb5l4dhie5hu9q1qqc279i4uenuj4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCOrox6P5MwEUMj000MplYlr-tliA2YBis"
+          "current_key": "AIzaSyA1njsn06UVdJUBzU4nOCaNRUPbZLUInic"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "890126580763-6o24m37n3o655nda8vdo92jvanhlair5.apps.googleusercontent.com",
+              "client_id": "859830193730-1igtb5l4dhie5hu9q1qqc279i4uenuj4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
