@@ -13,19 +13,18 @@ public class RewardsActivity extends Activity {
         setContentView(R.layout.points);
 
         TextView level_view = (TextView) findViewById(R.id.textView4);
-        int level = Math.ceil(Math.log10(points + 1));  //TODO: fetch points
+        int level = (int) Math.ceil(Math.log10(1+1));  //TODO: fetch points
         level_view.setText("You are at Level " + level);
 
-        TextView credits_view = (TextView) findViewById(R.id.textView4);
+        TextView credits_view = (TextView) findViewById(R.id.textView5);
         int credits;  //TODO: fetch remaining credits
-        credits_view.setText("Remaining Credits: \\u20B9 " + credits);
+        credits_view.setText("Remaining Credits: \\u20B9 " + 5);
 
 
     }
 
     public void setZero(View view)
     {
-        TextView textView = (TextView) view;
-        textView.setText("Remaining Credits: \\u20B9 0)");
+        ((TextView)findViewById(R.id.textView5)).setText("Remaining Credits: \\u20B9 0)");
     }
 }

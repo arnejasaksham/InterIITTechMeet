@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="c.example.communityreport">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -43,6 +42,7 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".HomeActivity" />
+        <activity android:name=".RewardsActivity" />
         <activity android:name=".ProfileActivity" />
         <activity
             android:name=".Report_PotholeActivity"
@@ -57,12 +57,9 @@
         </activity>
         <activity android:name=".ViewPointsActivity"></activity>
         <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-        <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCOrox6P5MwEUMj000MplYlr-tliA2YBis"/>
-        <activity android:name=".MapMarker" />
+            android:value="AIzaSyCUxitsWSFMPXWUsZZFE5qHGESGgiCtfjM"/>
+
     </application>
 
 </manifest>

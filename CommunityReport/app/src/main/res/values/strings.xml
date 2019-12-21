@@ -21,7 +21,7 @@
     <string name="report_potholes">Report Potholes</string>
     <string name="track_your_reports">Track your Reports</string>
     <string name="about_us">About Us</string>
-    <string name="welcome">Welcome</string>
+    <string name="welcome">Welcome to SwayamSevak</string>
     <string name="capture_and_upload">Capture and Upload</string>
     <string name="cap_and_upload_text_view">Click on Capture and Upload Button to report the Potholes</string>
     <string name="capture_image">Capture Image</string>
@@ -30,8 +30,7 @@
         1. This application uses your device storage and camera for reporting potholes.\n
     2. This application also uses your GPS to get your current device location while taking the photo.\n
     3. This application empowers the citizen to report problems directly to the authorities.\n
-    4. This application does not guarantee the solution to a specified problem.\n
-    5. Use the navigation panel to visit required part of the application.</string>
+    4. This application does not guarantee the solution to a specified problem.</string>
     <string name="points_award_system">Points Award System</string>
     <string name="view_points">View Points</string>
     <string name="confirm_report_completion">Confirm Report Completion</string>
