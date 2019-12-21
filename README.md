@@ -1,7 +1,5 @@
-##                                Schlumberger Coding Hackathon
-<p align="center">
+##  Schlumberger Coding Hackathon
 <img src="https://user-images.githubusercontent.com/19551774/71306931-31fc1400-240d-11ea-9f6d-1f277fb31bb7.jpeg">
-</p>
 
 **Problem Statement**: [Roads’ Leasing and Maintenance](http://www.interiittech.org/events/hackathon.html)
 -  When Government leases roads to contractors, it has no way of checking the progress of the project and has to rely on manual surveys and what not.
