@@ -1,50 +1,57 @@
-<h1>Bitcamp-2019</h1>
-<i><b>Won the most innovative solution at Bitcamp 2019.</b></i>
+# Schlumberger Coding Hackathon
+<center>
+<img src="https://user-images.githubusercontent.com/19551774/71306931-31fc1400-240d-11ea-9f6d-1f277fb31bb7.jpeg">
+</center>
 
-An android application for citizens(users) which allows them to register issues on potholes in their area.<br>
-Web for report management
-<br>
-<h3>Usage Flow:</h3>
-<ul>
-  <li>User clicks a photo of the pothole and registers a new issue.</li>
-  <li>The photo gets uploaded on the firebase database along with other information like GPS co-ordinates.</li>
-  <li>The image is downloaded in the server and served in the pothole detection script.</li>
-  <li>If pothole is detected an estimated area is calculated, id no pothole is detected user's issue gets rejected.</li>
-  <li>After successful detection details are uploaded on the web for administrator, these issue are forwarded to govt. officials.</li>
-  <li>Once the officials claim that they have fixed the pothole, the user gets a notification and they can close their issue if pothole is fixed</li>
-</ul>
+**Problem Statement**: [Roads’ Leasing and Maintenance](http://www.interiittech.org/events/hackathon.html)
+-  When Government leases roads to contractors, it has no way of checking the progress of the project and has to rely on manual surveys and what not.
+    
+-  Further, maintenance of the leased road is a huge pain. The government must perform regular surveys to check whether the road is in good condition.
+    
+-  Can you design a system where this process can be simplified or gamified by which we can crowd source this kind of data?
+    
+-  Make sure that a user who provides data can track the reported finding till it is resolved.
+    
+-  The system should be portable device friendly.
 
-<h3>Technology Stack:</h3>
-<ul>
-  <li>OpenCV</li>
-  <li>Android Studio</li>
-  <li>YOLOV2 Algorithm</li>
-  <li>Tensorflow lib</li>
-  <li>Firebase</li>
-  <li>Front End stack(HTML5, CSS3, Bootstrap 4, jQuery)</li>
-</ul>
+**Team**: [IIT Bhubaneswar](http://www.iitbbs.ac.in)
 
-<h3>User Interface:</h3>
-<p align='center'>
-<img width='250' height='470' src="https://lh3.googleusercontent.com/zPQ88jVqYgkAeDZhDZlkDbq6Lu5aMqFL2_HJvGmhiKKvdkcuhfk8rJWfJTNgSb43AkFEd642hf2kVl16_nyEGET4q04ZqaqOnOwWPLH8_iWjdafATweeJn5E_bguiQE2G3nvzu1GNPE=w303-h639-no" alt='pic1' />
-<img width='250' height='470' src="https://lh3.googleusercontent.com/O9-MVpH_DO70sJuhxnQw6geSfaot1bB0aAXP3K4E6FWfEL2MZUzp8f01vrXwEyRjMDnluYds718R8wV_r07R0xgWRAOPc_IqnryDhXZIeUy1x_vXQKyDPS5sGZ0raYdQwjr_7u85Kvg=w303-h639-no" alt='pic2' /> 
-  <br><br>
-  <img width='250' height='470' src="https://lh3.googleusercontent.com/HOvTCw_Igc_OknUYY5dfSbo40zNZk1D7BbRc9EVyE4Z0orikvxnJm4ESao-OZmr28cj4eXTYGoJ3ZUH8XgrivqdecfxmtbXnXUBoDZW5tRrI61xmrbPFe02IjCWnU9z13WIp67MW88LqbL-Atwif1dj8Q5_ibkSHg2p-WEWJCoHQsiNu1KKLiYzGiCR63MsquoFcc9lf5_bRBh3rlTCODbI44ejVUX4y8ojYWq0SbXiiBuBLJ_WXBz5YFHx0C5HlEYksysbribSTujNpOb1_DLCL4UrfmCoKec_VuVieQWIn_y92NBTrLfpya-Ahs9CfLsd-h6BZ4q2hcoAf-ZyAPoE_d9ciCYje9qNluOpIdnfrtl3WEPi9tPy_zW1H9gNRndRXfbCTqMp4eOQBq55JeUp8afMOWndGUnjmbh67Z3RaAYhuyKcdyPwQ63PZ2FqGNJzTxS3p21D_00umhWOpW9FJfJJAvgPA9aUhXDl1pgJ3aJZ73naSROhdkeBRGqrVn05dnKmwnlUaew7nIgNI9Q-m94ZZA7sqWABy5TawiOL1FsjbRxJljXtzg8yg1MEnxdyfD2eZwW3Y2WXBAzvfdqTNY3oscFMguvDTSzxKVI23F5ogPzS8JVnGs2B-pWNAmbtns3mmpyaYekO_CXYKjNl28r8KLz7s68CzAotECqi8QrG84n7B9HR6ihnLqSsRqzxFaKCjmGn00jVh77Bz0Mmt0g=w303-h639-no" alt='pic3'/>
-    <img width='250' height='470' src="https://lh3.googleusercontent.com/MAJSAcWhPig7RUaKDsUVlm4dm1Fy82WXVDOwSgsaTjCX_S6m8nUIsdxGWaZYaCMoFq7emx21F8rIs3Ec0cP9oi7qnsoLC0loYwSu2PNdgDOd7o-Jei1wHkbvka6oJCtkdhmEGIa0wdmT8BsMVEWO6rTEK2d9ULTW-DDgfO6ezOzv-Txg8wGHNESOG4GJuVfmEW9E-BL_fn6skwLhQ_trF-Am51kusk6IwNaKFV-Tly1i83IZodtFv_d3Q8CiAedJ4xawTN2FAGcMPgtycI4jev-eOWHjUTHpPVI7U-dFF-6TW_BJ4q4dGbl_2BBWDF_pbb-aOydpoPzsykQxm4D1mm09oiLhsIHHfOhYBNkmjKthDsY30kY8laJrC3nogu1xFb4WJtj9A_my_r7Mq8UGaXXK3_D5HHnpyY5C9ejBdeB93NYfJT0nYOqn3rbmYhU8Qth1lhX6IKYUsqLQB-FzlVzM4BoqP-avEA-kbI3yy4QiFy_mgwDLnEBTUk3WPMsNbf5Ha0Lhtj_h5jCQ42IRKJ_JAgh6_uY1q4mcgtNdlQRK0-E794CEkRsK122sRFxXRuxY6pef9N5_Ik_GHecLDtwdHSWyz1Lcue7UaQ9MUiFBeR_-on4_OpHwVEAN6gostMkJtSlnymPPrS98eWAgNMZ3VF1qJ57S00RmFsmp8UgtVf_6A8Jd_64qY9q4uMfPWBXkBZlABBgGGFHkErjHdFbZNg=w303-h639-no" alt='pic4'/>
-  <br><br>
-  <img width='250' height='470' src="https://lh3.googleusercontent.com/nqx0zIB7vDVl5gx-HK2S0vJcEdeoVmvtCn8P9Upgfoh5yL_oP9fnNiqfnvgH1FK5wulpJQV1P0lWktxZFyJDt02ZWhj6ncKt-O7MXNdFrKtbWlY6_0tiHWdzgeOCgFsbnx_U3EiNzZ6ZNRRqgGc3_UytJNpnWnLR2nPvvjZws3Y1AaK7v4IC9DDGQCAZKd-f1p1fXXEcowyH_kmL0XlnVk0GSumAavN1aE2QOb4cm7ryM26gFgwNZbvEnUrYd9nkF9esz7_xG8RSuI0jzskNyg3CVfcWyK67gYs9niFu7itvz_if6rueFRhQChsq_Nfny-T6Www81CgMGyBC3h5qmSaEtJRpNNey6dj82lsTPuZMiEGpHTV-WUTHnItisD24PIDqwoWDLh9scErhzbjU7dMviJPBwBOLC3HGzB2tXIZ-N76sDfNJcDVPhipsHXyU9taBVGgczCf_5phpzO4ThgfLCkf8lYqkllaBMhsCCBTKCHP5hDifNpUA8HptTeHur3re7Gntag7wyxSu7grVSrCAfDvMWapj8chP3VOoLdmj9ozfg-Dgh5_HUMN33cLVYEtJVtp7Rsnur-HBZvreLMnrsknYZuxOZkWGdYx1pgKf-pxlbX9DEde-PdWRiODlyr0faKRFwclorMMp59wYYpI3rFqHgCbgLVErnqVMbefnpTzRHJWuwufUXOCnGOynBxz3o5Bf-lBTq7PvQW2fYHRNyQ=w303-h639-no" alt='pic5'/>
-  <img width='250' height='470' src="https://lh3.googleusercontent.com/-k0lovpL8anGMTC9NVQPZ4210OTWdWT8ExmY7dMz5r56F1guWJiy4NbfZFqY0JWtxyI9gz5iAHeQVLtQoGh8yCtEo9qdBxwV3Lu7K5V3FfShrMz3PkDFjm4ynMgTGwR43i1YLg-OjTw8FBQueO6HMY1qVZQCBhOSgTjSv4cLXO0hpWRBeki1TkGo9n07b3WuTTlj6AK7nb12r9W6l-xYSsCVZ18Qk90CE0sQqZjeBKAE8Ynr1lvAUt8OIuPZDc0rIIkTdSSMZzoOBR7gpj9DY4YGaBf63RbbiOZ8e1hJtx3ckJnx3J8XzaCFl1m7UNWOAVYx9Ob8BCClYriOEg5zHrCMtYFHhm2fKimoBcNJ-QxWWVuPy4XT9YgGMTv0VzhmihdweQH18DYRijkFS6awhFL_QXHKjZgnyZZJvk3wmzDWbj5X0iVgjJmab0uMu_7JL2MDiC_IW0kTzC5ISNWQ3AFShWKI2IkTM0eSUPIfMLw7eJRV-Kxtsw9Brv2DStLo3QtZZue_qR8F8Yldpvq9YkyFOsFFNqqBqDCg9actOnjKzJNpffJDZoh0UlvlJI7GrBkOnQHccJONekbmzbYJ8wJQtSgA2UKZ9x3Nrm0p8VCq8l6Bv37lGhRICUObbcEokVajIi7wFJCL1pxsDuB5SQYotD3YlCOq6bjsOjSLQsJPnaPVUdVfXOE_Qc5MzmFZFVooONutt6Rrx2r1wnH5wUZzdw=w303-h639-no" alt='pic6'/>
-  <br><br>
-  <img src='https://github.com/globefire/Bitcamp-2019/blob/master/ui/screenshot2.PNG' alt='web1'/>
-  <br><br>
-  <img src='https://github.com/globefire/Bitcamp-2019/blob/master/ui/screenshot1.png' alt='web2'/>
-</p>
+**Team Members**
+- [Aditya Pal](https://www.github.com/PalAditya)
+- [Aman Pratap Singh](https://www.github.com/apsknight)
+- [Saksham Arneja](https://www.github.com/ArnejaSaksham)
+- [Tummala Madhav](https://www.github.com/MadhavChoudhary)
 
-<h3>Demontration:</h3>
-<a href='https://youtu.be/cN9kijExwyI'>Click Me!</a>
+## Abstract
+For the given problem statement, we propose a scalable, affordable, portable, modular and end-to-end solution to mitigate the need of manual surveying to track the project's construction update. Our solution consists of following entities:
 
+### For tracking of ongoing construction project
+- An android app for contractor to send the project updates in a regular constant interval by clicking the geo-tagged photo. Whenever, the contractor uploads the image of completed work from a particular location, the GPS of his/her mobile phone records the coordinates and send it to the server and accordingly the project status is calculated on the basis of proposed length and constructed lenghth and same is updated and reflected to both contractor(on Android app) and Government(on web dashboard). A map with poygraph of both proposed road and constructed road is also showed at both platform for better user's experience.
+- A calendar graph is also available to visualize the project status. 
+- A webapp dashboard where the Governement can see the project status of various ongoing projects and other relevant details.
+- A Twitter chatbot which regularly and automatically post tweets containg the images of the completed work and project status on the Govt's twitter handle. This may serve as a good public-relation opportunity for government to show the ongoing infrastructure development under their regime.
 
-### Support Me
-If you liked this Repository, then please leave a star on this repository. It motivates us to contribute more in such Open Source projects.
-### Happy Coding =)
-"# InterIITTechMeet" 
+### For road maintenance by crowdsourcing info of damaged road
+- An android app for general public using which anyone can click an image of damaged road and sent it to a centralized server. The app will automatically record the GPS Coordinates and send it to the server. We propose a real-time object detection model using [YOLO and OpenCV](https://github.com/jhasuman/potholes-detection) which then updates the database in real-time with the detected road damages. The app has also interface for the users to track the status of their submitted reports.
+- For government admin, we have a localized server setup with a web dashboard where they can see the status of all submitted reports in a tabular format. They can assign any of the road damages report to certain contractor to repair it and update the fix status which the user as well as Govt admin can see in the app and web dashboard respectively.
+- An email is triggered to the contractors at real time to notify them of the upcoming tasks.
+- All the road damages can be quickly viewed in the map by the Govt admin.
+
+### Gamification
+- To reward the road damage submitter and encourage others to submit the reports, we plan to incetivize every authentic road damage report submission.
+- We have created a virtual wallet in which certain amount will be credited whenever an user submit an authentic report. These credits can be redeemed to the user's FASTag wallet.
+- FASTag is a device that employs Radio Frequency Identification (RFID) technology for making toll payments directly from the prepaid account linked to it. Since, the FASTag is mandatory on National Highways from January 15th, this incentivization of road damages info crowdsourcing will help in the popularization of FASTag also.
+- We have also implemented leaderboard and levels where different users can compete on the basis of who submits more report.
+
+<center>
+<img src="https://user-images.githubusercontent.com/19551774/71308131-86f45600-241e-11ea-8b27-92ef931e5635.png">
+</center>
+
+## Future Plans
+- Road Damage detection using smartphone's accelerometer sensor. Android application detects a pothole when a car is passed through a pothole and reports the location of that pothole to the Road Ministry. All the other users can also view the potholes on map and find safest routes.
+- A Twitter crawler which can analyze mentions, likes, retweets etc. and reward the general public appropriately for being a good samaritan and spreading awareness.
+- We plan to rank the builders' appropriately via a ranking system based on their previous performance.
+
+<center>
+<h1>Thank You</h1>
+</center>
