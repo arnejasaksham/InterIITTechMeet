@@ -1,4 +1,4 @@
-<div align="center"> <h1>Schlumberger Coding Hackathon</h1> </div>
+<div align="center"> <h1>Schlumberger Coding Hackathon (Silver Medalist)</h1></div>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/19551774/71306931-31fc1400-240d-11ea-9f6d-1f277fb31bb7.jpeg">
 </p>
